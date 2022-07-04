@@ -24,3 +24,6 @@ We'll follow this assumption and start searching for these functions in dnSpy. F
 - (MicroSoft, 2021), https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe ↩︎
 - (Wikipedia, 2021), https://en.wikipedia.org/wiki/Cross-reference ↩︎
 - (Wikipedia, 2019), https://en.wikipedia.org/wiki/Breakpoint ↩︎
+
+# decompiling java classes
+- http://java-decompiler.github.io/
