@@ -33,8 +33,10 @@ def sendEmail(to,from,smtpsrv,payload):
   server.quit()
 ```
 
-
-## extra info
+## References:
+- [Hacking SMTP Servers](https://medium.com/@minimalist.ascent/hacking-smtp-ser-2b8a5cc1ce47)
+- 
+## other informations
 Scan host and verify whether or not the SMTP is actually running we can connect to it via telnet and issue a few commands. After that, enumerate possible users base on OSINT research on Linkedin. 
 ```bash
 root@asus:/mnt% nmap -sV -T4 -p22,25 mail.acme.comStarting Nmap 7.01 ( https://nmap.org ) at 2018-12-28 19:39 MST
