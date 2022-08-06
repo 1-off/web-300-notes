@@ -1,5 +1,5 @@
 # WEB-300: Atmail eMail Server Appliance: from XSS to RCE
-The idea is mailservers can be vulnerable to xss, if you send a payload in the date or subject or body as form of iframe or javascript, you canexploit the vulnerability. Note: 99% of the world use about 4 main mail platforms, with gmail and outlook and yahoo basically accounting for over 90% and protonmail 8%. So, everything explained here is mostly theoretical. All mail servers won't accept iframe and the fields are sanitized. So, the only trick you have is still to trick people out of the mail through links. 
+The idea is mailservers can be vulnerable to xss, if you send a payload in the date or subject or body as form of iframe or javascript, you canexploit the vulnerability. Note: 99% of the world use about 4 main mail platforms, with gmail and outlook and yahoo basically accounting for over 90% and protonmail 8%. So, everything explained here is mostly theoretical. All mail servers won't accept iframe and the fields are sanitized.
 
 # session hijacking
 ```javascript
