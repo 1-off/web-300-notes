@@ -1,5 +1,12 @@
 # web-300-notes
 
+## other notes
+- https://www.terminal23.net/2022/05/31/awae-web-300-unused-prep-notes/
+- https://rayhan0x01.github.io/web/2021/04/12/awae-web-300-oswe-guide-2021.html
+- https://www.qa.com/course-catalogue/products/advanced-web-attack-exploitation-web-300-90-days-lab-access-qaawae90/
+- https://infosecwriteups.com/cert-oswe-exam-review-and-tips-ft-no-developer-background-candidate-1dad7f545155
+- https://github.com/topics/awae-prep
+- https://hub.schellman.com/blog/oswe-review-and-exam-preparation-guide
 
 ## install pkg
 - https://www.kali.org/tools/offsec-courses/
