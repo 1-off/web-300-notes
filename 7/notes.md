@@ -24,7 +24,7 @@ let result = eval(text);
 ```
 
 ## exploit 
-```javascript
+```python
 import requests,sys
 
 if len(sys.argv) != 3:
