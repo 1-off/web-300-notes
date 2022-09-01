@@ -1,5 +1,5 @@
 # web-300-notes
-
+{secret}
 ## other notes
 - https://www.terminal23.net/2022/05/31/awae-web-300-unused-prep-notes/
 - https://rayhan0x01.github.io/web/2021/04/12/awae-web-300-oswe-guide-2021.html
