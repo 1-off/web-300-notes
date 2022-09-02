@@ -17,3 +17,5 @@ print(format_text('r.status_code is: ',r.status_code))
 print(format_text('r.headers is: ',r.headers))
 print(format_text('r.cookies is: ',r.cookies))
 print(format_text('r.text is: ',r.text))
+
+print("another secret")
